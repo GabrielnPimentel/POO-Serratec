@@ -1,23 +1,30 @@
 package br.com.poo.individual.entities;
 
 import java.time.LocalDate;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Residente {
 	
-	private int id;
+	//Atributos
+	private Integer id;
 	private String nome;
 	private String cpf;
 	private String email;
 	private LocalDate dataNasc;
 	private String formacao;
-	private int fkHabilidade;
+	private Integer fkHabilidade;
 	
+	static Map<Integer, Residente> mapaResidentes = new HashMap<>();
+	
+	//Construtor Default
 	public Residente() {
 		super();
 	}
 
-	public Residente(int id, String nome, String cpf, String email, LocalDate dataNasc, String formacao,
-			int fkHabilidade) {
+	//Construtor Parametrizado
+	public Residente(Integer id, String nome, String cpf, String email, LocalDate dataNasc, String formacao,
+			Integer fkHabilidade) {
 		super();
 		this.id = id;
 		this.nome = nome;
@@ -32,7 +39,7 @@ public class Residente {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
@@ -80,8 +87,18 @@ public class Residente {
 		return fkHabilidade;
 	}
 
-	public void setFkHabilidade(int fkHabilidade) {
+	public void setFkHabilidade(Integer fkHabilidade) {
 		this.fkHabilidade = fkHabilidade;
 	}
 	
+	public static Map<Integer, Residente> getMapaResidentes() {
+		return mapaResidentes;
+	}
+
+	@Override
+	public String toString() {
+		return "\nResidente:\nid=" + id + "\nnome=" + nome + "\ncpf=" + cpf + ", \nemail=" + email + ", d\nataNasc=" + dataNasc
+				+ "\nformacao=" + formacao + "\nfkHabilidade=" + fkHabilidade;
+	}
+		
 }

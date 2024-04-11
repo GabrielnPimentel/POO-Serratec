@@ -1,27 +1,37 @@
 package br.com.poo.individual.entities;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Habilidade {
 
-	private int id;
+	//Atributos
+	private Integer id;
 	private String nome;
 	private String descricao;
+	private Integer fkResidente;
 	
+	static Map<Integer, Habilidade> mapaHabilidades = new HashMap<>();
+	
+	//Construtor Default
 	public Habilidade() {
 		super();
 	}
 
-	public Habilidade(int id, String nome, String descricao) {
+	//Construtor Parametrizado
+	public Habilidade(Integer id, String nome, String descricao, Integer fkResidente) {
 		super();
 		this.id = id;
 		this.nome = nome;
 		this.descricao = descricao;
+		this.fkResidente = fkResidente;
 	}
 
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
@@ -40,5 +50,22 @@ public class Habilidade {
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
+
+	public Integer getFkResidente() {
+		return fkResidente;
+	}
+
+	public void setFkResidente(Integer fkResidente) {
+		this.fkResidente = fkResidente;
+	}
 	
+	public static Map<Integer, Habilidade> getMapaHabilidades() {
+		return mapaHabilidades;
+	}
+
+	@Override
+	public String toString() {
+		return "\nHabilidade:\nid=" + id + "\nnome=" + nome + "\ndescricao=" + descricao + "\nfkResidente=" + fkResidente;
+	}
+		
 }
