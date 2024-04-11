@@ -1,0 +1,21 @@
+Residente;1;João Silva;123.456.789-00;joao@example.com;1990-05-15;Engenharia Civil;1;
+Residente;2;Maria Souza;987.654.321-00;maria@example.com;1985-10-20;Análise de Sistemas;2;
+Residente;3;Pedro Oliveira;456.789.123-00;pedro@example.com;1992-03-12;Tecnologia da Informação;3;
+Residente;4;Ana Santos;321.654.987-00;ana@example.com;1995-07-25;Técnico em Laboratório;4;
+Residente;5;Carlos Ferreira;654.321.987-00;carlos@example.com;1988-12-30;Professor de Matemática;5;
+Residente;6;Fernanda Lima;789.123.456-00;fernanda@example.com;1993-09-05;Administração de Empresas;6;
+Residente;7;Rafaela Pereira;159.357.852-00;rafaela@example.com;1998-04-18;Engenharia Elétrica;7;
+Residente;8;Lucas Oliveira;456.123.789-00;lucas@example.com;1991-06-20;Ciência da Computação;8;
+Residente;9;Amanda Santos;852.741.963-00;amanda@example.com;1996-11-10;Arquitetura e Urbanismo;9;
+Residente;10;Rodrigo Silva;369.258.147-00;rodrigo@example.com;1987-08-15;Direito;10;
+
+Habilidade;1;HTML5;Proficiência na linguagem de marcação HTML5;1;
+Habilidade;2;Desenvolvimento Web;Proficiência em HTML5 CSS e Javascript;2;
+Habilidade;3;React;Habilidade no framework e tecnologias associadas;3;
+Habilidade;4;Product Owner;Habilidade e/ou experiência como Product Owner;4;
+Habilidade;5;Banco de dados;Conceitos de criação e manipulação de dados linguagem SQL;5;
+Habilidade;6;Python;Linguagem de programação versátil e poderosa;6;
+Habilidade;7;Java;Linguagem de programação amplamente utilizada para desenvolvimento de aplicativos;7;
+Habilidade;8;Machine Learning;Capacidade de criar modelos e sistemas que aprendem a partir de dados;8;
+Habilidade;9;UX/UI Design;Design de interfaces de usuário e experiência do usuário;9;
+Habilidade;10;Git;Sistema de controle de versão distribuído;10;
