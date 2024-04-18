@@ -62,10 +62,15 @@ public class Habilidade {
 	public static Map<Integer, Habilidade> getMapaHabilidades() {
 		return mapaHabilidades;
 	}
-
+/*
 	@Override
 	public String toString() {
 		return "\nHabilidade:\nid=" + id + "\nnome=" + nome + "\ndescricao=" + descricao + "\nfkResidente=" + fkResidente;
 	}
-		
+		*/
+	
+	@Override
+	public String toString() {
+		return "\nHabilidade:" + "\nNome=" + nome + "\nDescricao=" + descricao + "\n";
+	}
 }
