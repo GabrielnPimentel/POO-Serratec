@@ -94,11 +94,18 @@ public class Residente {
 	public static Map<Integer, Residente> getMapaResidentes() {
 		return mapaResidentes;
 	}
-
+/*
 	@Override
 	public String toString() {
 		return "\nResidente:\nid=" + id + "\nnome=" + nome + "\ncpf=" + cpf + ", \nemail=" + email + ", d\nataNasc=" + dataNasc
 				+ "\nformacao=" + formacao + "\nfkHabilidade=" + fkHabilidade;
+	}
+	*/
+	
+	@Override
+	public String toString() {
+		return "\nResidente:" + "\nNome=" + nome + "\nCPF=" + cpf + "\nEmail=" + email + "\nNascimento=" + dataNasc
+				+ "\nFormacao=" + formacao + "\n";
 	}
 		
 }
