@@ -8,7 +8,6 @@ Residente;7;Rafaela Pereira;159.357.852-00;rafaela@example.com;1998-04-18;Engenh
 Residente;8;Lucas Oliveira;456.123.789-00;lucas@example.com;1991-06-20;Ciência da Computação;8;
 Residente;9;Amanda Santos;852.741.963-00;amanda@example.com;1996-11-10;Arquitetura e Urbanismo;9;
 Residente;10;Rodrigo Silva;369.258.147-00;rodrigo@example.com;1987-08-15;Direito;10;
-
 Habilidade;1;HTML5;Proficiência na linguagem de marcação HTML5;1;
 Habilidade;2;Desenvolvimento Web;Proficiência em HTML5 CSS e Javascript;2;
 Habilidade;3;React;Habilidade no framework e tecnologias associadas;3;
